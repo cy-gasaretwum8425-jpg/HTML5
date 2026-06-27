@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Photo Gallery – Asare Twum Gideon's personal and academic moments" />
+  <meta name="author" content="Asare Twum Gideon" />
+  <title>Gallery | Asare Twum Gideon</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .gallery-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .gallery-grid img { height: 300px; }
+    .category-label {
+      display: inline-block;
+      background: var(--sky);
+      color: white;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.2rem 0.8rem;
+      border-radius: 50px;
+      margin-bottom: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">Gideon<span>.dev</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding:3rem 1.5rem;">
+    <h1>My <span>Gallery</span></h1>
+    <p>A few snapshots of my life — both on and off campus. These moments remind me why I'm working so hard.</p>
+  </section>
+
+  <main>
+
+    <section class="section">
+      <span class="category-label">Personal</span>
+      <h2 class="section-title">Just Me Being Me</h2>
+      <p>Some casual shots taken during my free time. The Manchester City jersey is basically a uniform at this point.</p>
+
+      <div class="gallery-grid">
+        <figure>
+          <img src="images/photo1.jpg" alt="Gideon smiling outdoors in a Manchester City Etihad Airways jersey and black beret" />
+          <figcaption>Casual day out — City till I die! 🩵</figcaption>
+        </figure>
+        <figure>
+          <img src="images/photo4.jpg" alt="Gideon in Manchester City jersey looking into the distance outdoors" />
+          <figcaption>Another shot from the same outing — different vibe, same jersey.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section">
+      <span class="category-label">Campus Life</span>
+      <h2 class="section-title">Life on Campus</h2>
+      <p>These were taken during campus events and academic programmes. The white shirt and suspenders are my go-to for anything formal at school.</p>
+
+      <div class="gallery-grid">
+        <figure>
+          <img src="images/photo2.jpg" alt="Gideon dressed formally in a white shirt with black suspenders and blue sunglasses, standing on campus with a satellite dish in the background" />
+          <figcaption>Representing at a campus academic event — dressed to impress.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/photo3.jpg" alt="Full-length photo of Gideon in white shirt and suspenders standing on the campus lawn with university buildings visible behind him" />
+          <figcaption>One of my favourite campus shots — something about this one just hits right.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section">
+      <h2 class="section-title">About These Photos</h2>
+      <p>I believe in capturing real moments — nothing staged or overly polished. The photos in this gallery are a genuine reflection of who I am: a student who loves football, takes his academics seriously, and isn't afraid to dress well for the occasion.</p>
+
+      <div class="highlight" style="margin-top:1.5rem;">
+        <strong>Quick Gallery Facts:</strong>
+        <ul class="styled-list" style="margin-top:0.6rem;">
+          <li>4 personal photos displayed across 2 categories</li>
+          <li>All images have descriptive alt text for screen readers</li>
+          <li>Photos were taken at various locations in Ghana</li>
+          <li>All images are original and belong to Asare Twum Gideon</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><strong>Asare Twum Gideon</strong> &nbsp;|&nbsp; Student ID: FCM.41.081.048.25</p>
+    <p>BSc Cyber Security &nbsp;|&nbsp; University of Mines and Technology (UMaT)</p>
+    <p>&copy; 2026 Asare Twum Gideon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
